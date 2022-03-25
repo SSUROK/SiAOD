@@ -22,11 +22,6 @@ void HW1::run() {
             }
         }
     }
-
-for( int i = 0; i < len; i++){
-  cout << vec[i] << " | ";
-}
-cout << endl;
     auto end = chrono::system_clock::now();
     chrono::duration<double, milli> elapsed_seconds = end - start;
     cout << "working time: " << elapsed_seconds.count() << "ms" << endl;
