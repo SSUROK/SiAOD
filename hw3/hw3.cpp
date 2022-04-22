@@ -3,11 +3,7 @@
 //
 
 #include "hw3.h"
-void HW3::display(int *array, int size) {
-    for(int i = 0; i<size; i++)
-        cout << array[i] << " ";
-    cout << endl;
-}
+
 void HW3::merge(int *array, int l, int m, int r) {
     int i, j, k, nl, nr;
     //размеры правого и левого подмассивов

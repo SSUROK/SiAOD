@@ -7,6 +7,8 @@ set(HW2 ./hw2)
 include_directories(${HW1})
 include_directories(${HW2})
 include_directories(./hw3)
+include_directories(./hw4)
+include_directories(./common)
 
 set(
         SOURCE_FILES
@@ -15,7 +17,7 @@ set(
         ${HW1}/hw1.cpp
         ${HW2}/hw2.h
         ${HW2}/hw2.cpp
-        hw3/hw3.cpp hw3/hw3.h)
+        hw3/hw3.cpp hw3/hw3.h hw4/hw4.cpp hw4/hw4.h common/Arrays.cpp common/Arrays.h)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(untitled7 ${SOURCE_FILES})
