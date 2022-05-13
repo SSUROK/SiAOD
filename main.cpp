@@ -5,6 +5,7 @@
 #include "hw2.h"
 #include "hw3.h"
 #include "hw4.h"
+#include "hw5.h"
 using namespace std;
 
 int main(){
@@ -13,8 +14,10 @@ int main(){
 //    HW2 hw2;
 //    hw2.run(1000000);
 //    HW3 hw3(100);
-    HW4 hw4(100);
-    hw4.search();
+//    HW4 hw4(100);
+//    hw4.search();
+	hw5 hw5(100);
+	hw5.find();
     return 0;
 }
 

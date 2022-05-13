@@ -6,12 +6,12 @@
 #define UNTITLED7_HW4_H
 
 class HW4 {
-    int sf = 0, mf = 0, len;
-    int *arr;
+	int sf = 0, mf = 0, len;
+	int *arr;
 
 public:
-    HW4(int len);
-    void search();
+	HW4(int len);
+	void search();
 
 };
 
