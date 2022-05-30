@@ -10,6 +10,7 @@ include_directories(./hw3)
 include_directories(./hw4)
 include_directories(./hw5)
 include_directories(./hw6)
+include_directories(./hw7)
 include_directories(./common)
 
 set(
@@ -19,7 +20,7 @@ set(
         ${HW1}/hw1.cpp
         ${HW2}/hw2.h
         ${HW2}/hw2.cpp
-        hw3/hw3.cpp hw3/hw3.h hw4/hw4.cpp hw4/hw4.h common/Arrays.cpp common/Arrays.h hw5/hw5.cpp hw5/hw5.h hw5/bohr.cpp hw5/bohr.h hw6/hw6.cpp hw6/hw6.h)
+        hw3/hw3.cpp hw3/hw3.h hw4/hw4.cpp hw4/hw4.h common/Arrays.cpp common/Arrays.h hw5/hw5.cpp hw5/hw5.h hw5/bohr.cpp hw5/bohr.h hw6/hw6.cpp hw6/hw6.h hw7/hw7.cpp hw7/hw7.h hw7/variantOperatons.cpp hw7/variantOperatons.h)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(untitled7 ${SOURCE_FILES})

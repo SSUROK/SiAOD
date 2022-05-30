@@ -7,6 +7,7 @@
 #include "hw4.h"
 #include "hw5.h"
 #include "hw6.h"
+#include "hw7.h"
 using namespace std;
 
 int main(){
@@ -19,8 +20,10 @@ int main(){
 //    hw4.search();
 //	hw5 hw5(100);
 //	hw5.find();
-	hw6 hw6("Empress by her sister", 1);
-	cout << hw6.search() << endl;
+//	hw6 hw6("Empress by her sister", 1);
+//	cout << hw6.search() << endl;
+	hw7 hw7;
+	hw7.exac();
     return 0;
 }
 
