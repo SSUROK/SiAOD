@@ -8,6 +8,7 @@
 #include "hw5.h"
 #include "hw6.h"
 #include "hw7.h"
+#include "Calculator.h"
 using namespace std;
 
 int main(){
@@ -22,8 +23,10 @@ int main(){
 //	hw5.find();
 //	hw6 hw6("Empress by her sister", 1);
 //	cout << hw6.search() << endl;
-	hw7 hw7;
-	hw7.exac();
+//	hw7 hw7;
+//	hw7.exac();
+	Calculator cl;
+	cl.parse("11+10*2/1+5*2");
     return 0;
 }
 
